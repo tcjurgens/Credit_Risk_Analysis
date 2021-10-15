@@ -39,3 +39,6 @@ Above, we have a 83.02% accuracy score, 4% precision high risk, 100% precision l
 Above, we have a 92.54% accuracy score, 7% precision high risk, 100% precision low risk, 91% recall high-risk, and 94% recall low-risk. Other data also shown in the chart.
 
 ## Summary
+In the first four models, the accuracy score is not as high as the ensemble scores. The mixed models have generally low accuracy scores as well. 
+The best predictive models should have a fair mix of recall and precision accuracy. Therefore, I would recommend one of the 2 ensemble models. 
+It appears that the Easy Ensemble AdaBoost Classifier has the most balanced mix of precision and recall accuracy scores and I would recommend that specific model to be used to assess credit risk in this example.
